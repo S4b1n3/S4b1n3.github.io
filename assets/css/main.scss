@@ -46,32 +46,38 @@
    Custom overrides
    ------------------------------------------------------------------ */
 
-/* Make featured publication teaser images small and on the right */
-/* Featured publication teaser layout */
-.archive__item-teaser {
-  float: right !important;
-  margin-left: 1.5rem;
-  margin-bottom: 0.75rem;
+.archive__item:has(.archive__item-teaser) {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); /* text, image */
+  column-gap: 1.5rem;
+  align-items: flex-start;
 }
 
-/* Directly control the image size here */
+/* Make sure the teaser itself is in the right column */
+.archive__item-teaser {
+  margin: 0;                    /* remove extra margins */
+  justify-self: end;
+}
+
+/* Control the image size nicely */
 .archive__item-teaser img {
-  width: 260px !important;   /* try 220–300px as you like */
-  height: auto !important;
+  width: 100%;
+  max-width: 320px;             /* cap size so it doesn’t get huge */
+  height: auto;
   display: block;
 }
 
-/* On small screens, let it go full-width on top */
-@media (max-width: 600px) {
+/* On small screens, go back to single-column stacked layout */
+@media (max-width: 800px) {
+  .archive__item:has(.archive__item-teaser) {
+    display: block;
+  }
+
   .archive__item-teaser {
-    float: none !important;
-    margin-left: 0;
-    margin-bottom: 1rem;
-    text-align: center;
+    margin-top: 0.75rem;
   }
 
   .archive__item-teaser img {
-    width: 100% !important;
-    max-width: 320px;
+    max-width: 100%;
   }
 }
