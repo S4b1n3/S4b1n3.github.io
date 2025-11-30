@@ -46,7 +46,7 @@
    Featured publication layout: text left, image right
    --------------------------------------------------------- */
 
-/* make each archive item a normal block, not a flex row */
+/* reset default theme layout */
 .page__content .archive__item {
   display: block !important;
 }
@@ -54,35 +54,37 @@
 /* row containing text + image */
 .page__content .archive__item-main {
   display: flex !important;
-  gap: 2rem;
-  align-items: flex-start;   /* top-align image with title/text */
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
-/* text column: ~55% of the row */
+/* text column: 65% */
 .page__content .archive__item-text {
-  flex: 0 0 55%;
+  flex: 0 0 65%;
+  max-width: 65%;
 }
 
-/* image column: ~45% of the row */
+/* image column: 35% */
 .page__content .archive__item-teaser {
-  flex: 0 0 45%;
-  margin-top: 0.25rem;       /* tiny nudge so top lines up with title */
+  flex: 0 0 35%;
+  max-width: 35%;
+  margin-top: 0.25rem;
 }
 
+/* image sizing */
 .page__content .archive__item-teaser img {
-  display: block;
-  width: 100%;               /* fill the 45% column */
+  width: 100%;
   height: auto;
   border-radius: 6px;
 }
 
-/* full-width citation / links block */
+/* citation full-width */
 .page__content .archive__item-meta {
   margin-top: 1rem;
-  max-width: none;           /* in case theme constrains width */
+  max-width: none;
 }
 
-/* Mobile: stack text and image */
+/* mobile layout */
 @media (max-width: 800px) {
   .page__content .archive__item-main {
     display: block !important;
@@ -90,16 +92,12 @@
 
   .page__content .archive__item-text,
   .page__content .archive__item-teaser {
-    flex: 0 0 auto;
+    max-width: 100%;
+    flex: none;
   }
 
   .page__content .archive__item-teaser {
     margin-top: 1rem;
-  }
-
-  .page__content .archive__item-teaser img {
-    width: 100%;
-    height: auto;
   }
 }
 
