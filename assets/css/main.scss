@@ -48,7 +48,8 @@
 
 .archive__item:has(.archive__item-teaser) {
   display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); /* text, image */
+  /* text ~60%, image ~40% */
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2.2fr);
   column-gap: 1.5rem;
   align-items: flex-start;
 }
@@ -59,10 +60,9 @@
   justify-self: end;
 }
 
-/* Control the image size nicely */
 .archive__item-teaser img {
   width: 100%;
-  max-width: 320px;             /* cap size so it doesn’t get huge */
+  max-width: 380px;   /* was 320px – just a bit larger */
   height: auto;
   display: block;
 }
