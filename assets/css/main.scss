@@ -46,11 +46,16 @@
    Featured publication layout: text left, image right
    --------------------------------------------------------- */
 
-/* Layout for publications: text left, image right, citation full-width */
+/* make each archive item a normal block, not a flex row */
+.archive__item {
+  display: block;
+}
+
+/* row containing text + image */
 .archive__item-main {
   display: flex;
   gap: 2rem;
-  align-items: center;      /* vertically center image with text */
+  align-items: flex-start;   /* top-align image with title/text */
 }
 
 /* text column */
@@ -59,28 +64,37 @@
 }
 
 /* image column */
+.archive__item-teaser {
+  flex: 0 0 auto;
+  margin-top: 0.25rem;       /* tiny nudge so top lines up with title */
+}
+
 .archive__item-teaser img {
   display: block;
-  width: 380px;             /* adjust 340–420px to taste */
+  width: 380px;              /* tweak to taste */
   max-width: 100%;
   height: auto;
   border-radius: 6px;
 }
 
-/* full-width citation block */
+/* full-width citation / links block */
 .archive__item-meta {
   margin-top: 1rem;
+  max-width: none;           /* in case theme constrains width */
 }
-
+ 
 /* Mobile: stack text and image */
 @media (max-width: 800px) {
   .archive__item-main {
     display: block;
   }
 
+  .archive__item-teaser {
+    margin-top: 1rem;
+  }
+
   .archive__item-teaser img {
     width: 100%;
     max-width: 380px;
-    margin-top: 1rem;
   }
 }
