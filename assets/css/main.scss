@@ -100,5 +100,27 @@
   }
 }
 
+/* ---------------------------------------------------------
+   Force teaser image size for featured publications
+   --------------------------------------------------------- */
+
+/* wrapper: don't constrain width */
+.page__content .archive__item-teaser {
+  flex: 0 0 auto !important;
+  max-width: none !important;
+}
+
+/* image itself */
+.page__content .archive__item-teaser img {
+  display: block;
+  width: 320px !important;    /* <-- change this number to adjust size */
+  height: auto !important;
+  border-radius: 6px;
+
+  /* TEMP: debug to ensure rule is applied */
+  border: 3px solid red !important;
+}
+
+
 
 
