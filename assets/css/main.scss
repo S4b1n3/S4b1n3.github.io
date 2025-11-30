@@ -46,41 +46,43 @@
    Featured publication layout: text left, image right
    --------------------------------------------------------- */
 
-/.archive__item {
+.archive__item {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: flex-start;
 }
 
-/* text grows to fill space */
+/* text on the left */
 .archive__item-text {
   flex: 1 1 auto;
+  max-width: 60%;
 }
 
-/* teaser (image) sits on the right and has a reasonable size */
+/* image on the right */
 .archive__item-teaser {
   flex: 0 0 auto;
 }
 
 .archive__item-teaser img {
-  display: block;
-  width: 340px;   /* tweak 300–380px if you like */
-  max-width: 100%;
+  width: 360px;    /* adjust 300–420px */
   height: auto;
+  display: block;
+  border-radius: 6px;
 }
 
-/* On small screens, stack them */
+/* mobile fallback */
 @media (max-width: 800px) {
   .archive__item {
     display: block;
   }
 
-  .archive__item-teaser {
-    margin-top: 0.75rem;
+  .archive__item-text {
+    max-width: 100%;
   }
 
   .archive__item-teaser img {
     width: 100%;
     max-width: 380px;
+    margin-top: 1rem;
   }
 }
