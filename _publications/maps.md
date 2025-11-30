@@ -3,7 +3,7 @@ title: "MAPS: Masked Attribution-based Probing of Strategies — A computational
 collection: publications
 category: preprints
 permalink: /publication/maps
-excerpt: "MAPS is a general, behaviorally validated tool that identifies which ANN-derived explanations best account for human vision across diverse visual tasks. By converting attribution maps into explanation-masked images (EMIs), MAPS links model explanations with human and macaque behavior, providing a principled way to compare and select interpretability methods using far fewer behavioral trials."
+excerpt: "MAPS is a validated tool that identifies which ANN explanations best match human vision. By converting attribution maps into explanation-masked images (EMIs), it links model explanations with human and macaque behavior and enables principled comparison of interpretability methods using far fewer trials."
 date: 2025-10-14
 venue: "Under revision at Communications Psychology"
 paperurl: "https://arxiv.org/pdf/2510.12141"
