@@ -42,32 +42,39 @@
   "vendor/font-awesome/brands"
 ;
 
-/* ------------------------------------------------------------------
-   Custom overrides
-   ------------------------------------------------------------------ */
+/* ---------------------------------------------------------
+   Featured publication layout: text left, image right
+   --------------------------------------------------------- */
 
+/* Make articles with a teaser use a two-column grid */
 .archive__item:has(.archive__item-teaser) {
   display: grid;
-  /* text ~60%, image ~40% */
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2.2fr);
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); /* text, image */
   column-gap: 1.5rem;
   align-items: flex-start;
 }
 
-/* Make sure the teaser itself is in the right column */
+/* Put the teaser (image) explicitly in the RIGHT column */
 .archive__item-teaser {
-  margin: 0;                    /* remove extra margins */
+  grid-column: 2;
+  margin: 0;
   justify-self: end;
 }
 
+/* Put everything else (title, venue, excerpt, citation…) in the LEFT column */
+.archive__item > *:not(.archive__item-teaser) {
+  grid-column: 1;
+}
+
+/* Control the image size */
 .archive__item-teaser img {
   width: 100%;
-  max-width: 380px;   /* was 320px – just a bit larger */
+  max-width: 380px;   /* tweak 320–400px to taste */
   height: auto;
   display: block;
 }
 
-/* On small screens, go back to single-column stacked layout */
+/* On small screens, go back to a stacked layout */
 @media (max-width: 800px) {
   .archive__item:has(.archive__item-teaser) {
     display: block;
