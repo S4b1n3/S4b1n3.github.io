@@ -46,37 +46,32 @@
    Featured publication layout: text left, image right
    --------------------------------------------------------- */
 
-/* Make articles with a teaser use a two-column grid */
-.archive__item:has(.archive__item-teaser) {
-  display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); /* text, image */
-  column-gap: 1.5rem;
+/.archive__item {
+  display: flex;
+  gap: 1.5rem;
   align-items: flex-start;
 }
 
-/* Put the teaser (image) explicitly in the RIGHT column */
+/* text grows to fill space */
+.archive__item-text {
+  flex: 1 1 auto;
+}
+
+/* teaser (image) sits on the right and has a reasonable size */
 .archive__item-teaser {
-  grid-column: 2;
-  margin: 0;
-  justify-self: end;
+  flex: 0 0 auto;
 }
 
-/* Put everything else (title, venue, excerpt, citation…) in the LEFT column */
-.archive__item > *:not(.archive__item-teaser) {
-  grid-column: 1;
-}
-
-/* Control the image size */
 .archive__item-teaser img {
-  width: 100%;
-  max-width: 380px;   /* tweak 320–400px to taste */
-  height: auto;
   display: block;
+  width: 340px;   /* tweak 300–380px if you like */
+  max-width: 100%;
+  height: auto;
 }
 
-/* On small screens, go back to a stacked layout */
+/* On small screens, stack them */
 @media (max-width: 800px) {
-  .archive__item:has(.archive__item-teaser) {
+  .archive__item {
     display: block;
   }
 
@@ -85,6 +80,7 @@
   }
 
   .archive__item-teaser img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 380px;
   }
 }
