@@ -47,54 +47,56 @@
    --------------------------------------------------------- */
 
 /* make each archive item a normal block, not a flex row */
-.archive__item {
-  display: block;
+.page__content .archive__item {
+  display: block !important;
 }
 
 /* row containing text + image */
-.archive__item-main {
-  display: flex;
+.page__content .archive__item-main {
+  display: flex !important;
   gap: 2rem;
   align-items: flex-start;   /* top-align image with title/text */
 }
 
 /* text column */
-.archive__item-text {
+.page__content .archive__item-text {
   flex: 1 1 auto;
 }
 
 /* image column */
-.archive__item-teaser {
-  flex: 0 0 auto;
+.page__content .archive__item-teaser {
+  flex: 0 0 480px;           /* wider image column */
   margin-top: 0.25rem;       /* tiny nudge so top lines up with title */
 }
 
-.archive__item-teaser img {
+.page__content .archive__item-teaser img {
   display: block;
-  width: 380px;              /* tweak to taste */
-  max-width: 100%;
+  width: 100%;               /* fill the 480px column */
+  max-width: 480px;
   height: auto;
   border-radius: 6px;
 }
 
 /* full-width citation / links block */
-.archive__item-meta {
+.page__content .archive__item-meta {
   margin-top: 1rem;
   max-width: none;           /* in case theme constrains width */
 }
- 
+
 /* Mobile: stack text and image */
 @media (max-width: 800px) {
-  .archive__item-main {
-    display: block;
+  .page__content .archive__item-main {
+    display: block !important;
   }
 
-  .archive__item-teaser {
+  .page__content .archive__item-teaser {
     margin-top: 1rem;
+    flex: 0 0 auto;
   }
 
-  .archive__item-teaser img {
+  .page__content .archive__item-teaser img {
     width: 100%;
-    max-width: 380px;
+    max-width: 100%;
   }
 }
+
