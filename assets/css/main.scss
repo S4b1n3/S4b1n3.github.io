@@ -46,15 +46,41 @@
    Featured publication layout: text left, image right
    --------------------------------------------------------- */
 
-.archive__item {
+/* Layout for publications: text left, image right, citation full-width */
+.archive__item-main {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;      /* vertically center image with text */
 }
 
-/* Stack on mobile */
+/* text column */
+.archive__item-text {
+  flex: 1 1 auto;
+}
+
+/* image column */
+.archive__item-teaser img {
+  display: block;
+  width: 380px;             /* adjust 340–420px to taste */
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* full-width citation block */
+.archive__item-meta {
+  margin-top: 1rem;
+}
+
+/* Mobile: stack text and image */
 @media (max-width: 800px) {
-  .archive__item {
+  .archive__item-main {
     display: block;
+  }
+
+  .archive__item-teaser img {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 1rem;
   }
 }
