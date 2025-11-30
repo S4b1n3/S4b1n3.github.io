@@ -42,83 +42,14 @@
   "vendor/font-awesome/brands"
 ;
 
-/* ---------------------------------------------------------
-   Featured publication layout: text left, image right
-   --------------------------------------------------------- */
-
-/* make each archive item a normal block, not a flex row */
-.page__content .archive__item {
-  display: block !important;
-}
-
-/* row containing text + image */
-.page__content .archive__item-main {
-  display: flex !important;
-  gap: 1.5rem;
-  align-items: flex-start;   /* top-align image with title */
-}
-
-/* text column: take remaining space */
-.page__content .archive__item-text {
-  flex: 1 1 auto;
-}
-
-/* image column: auto width */
-.page__content .archive__item-teaser {
-  flex: 0 0 auto;
-  margin-top: 0.25rem;
-}
-
-/* *** fixed, medium image size *** */
-.page__content .archive__item-teaser img {
-  display: block;
-  width: 340px !important;   /* <- adjust: 320–380px if you want */
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-
-/* citation full-width */
-.page__content .archive__item-meta {
-  margin-top: 1rem;
-  max-width: none;
-}
-
-/* mobile: stack text and image */
-@media (max-width: 800px) {
-  .page__content .archive__item-main {
-    display: block !important;
-  }
-
-  .page__content .archive__item-teaser {
-    margin-top: 1rem;
-  }
-
-  .page__content .archive__item-teaser img {
-    width: 100% !important;
-    max-width: 100%;
-  }
-}
-
-/* ---------------------------------------------------------
-   Force teaser image size for featured publications
-   --------------------------------------------------------- */
-
-/* wrapper: don't constrain width */
-.page__content .archive__item-teaser {
-  flex: 0 0 auto !important;
-  max-width: none !important;
-}
-
-/* image itself */
-.page__content .archive__item-teaser img {
-  display: block;
-  width: 320px !important;    /* <-- change this number to adjust size */
+/* Force teaser image size for featured publications */
+.archive__item-main .archive__item-teaser img {
+  width: 420px !important;      /* change this number for bigger/smaller */
   height: auto !important;
   border-radius: 6px;
 
-  /* TEMP: debug to ensure rule is applied */
-  border: 3px solid red !important;
+  /* TEMP: debug – remove once you see it */
+  border: 4px solid magenta !important;
 }
 
 
