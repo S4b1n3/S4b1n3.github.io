@@ -49,9 +49,10 @@
 /* Make featured publication teaser images small and on the right */
 .archive__item-teaser {
   float: right !important;
-  width: 260px !important;   /* adjust: 140–200px depending on taste */
-  margin-left: 1rem;
-  margin-bottom: 0.5rem;
+  width: 30% !important;   /* image = ~30% of the text block */
+  max-width: 320px;        /* don’t let it explode on large screens */
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .archive__item-teaser img {
