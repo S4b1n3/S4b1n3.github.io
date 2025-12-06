@@ -7,7 +7,7 @@ excerpt: 'We introduce reverse predictivity, a new metric that complements tradi
 date: 2025-08-11
 venue: 'Under Revision at Nature Machine Intelligence'
 paperurl: 'https://www.biorxiv.org/content/biorxiv/early/2025/08/11/2025.08.08.669382.full.pdf'
-citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Reverse Predictivity: Going Beyond One-Way Mapping to Compare Artificial Neural Network Models and Brains. bioRxiv, 2025.08. 08.669382
+citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Reverse Predictivity: Going Beyond One-Way Mapping to Compare Artificial Neural Network Models and Brains. bioRxiv, 2025.08. 08.669382'
 featured: true
 header:
     teaser: "reverse_pred.png"
