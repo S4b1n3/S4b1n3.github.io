@@ -7,7 +7,7 @@ excerpt: "We show that incorporating image memorability as an additional trainin
 date: 2025-10-9
 venue: "Submitted to PNAS"
 paperurl: "https://www.biorxiv.org/content/10.1101/2025.10.06.680822.full.pdf"
-citation: "Ziaee, S.*, Ahuja, R.*, **Muzellec, S.**, Fide, E., Rosenbaum, S. R., & Kar, K. (2025). Distinct contributions of memorability and object recognition to the representational goals of the macaque inferior temporal cortex. Submitted to PNAS."
+citation: "Ziaee, S.*, Ahuja, R.*, <strong>Muzellec, S.</strong>, Fide, E., Rosenbaum, S. R., & Kar, K. (2025). Distinct contributions of memorability and object recognition to the representational goals of the macaque inferior temporal cortex. Submitted to PNAS."
 featured: false
 ---
 
