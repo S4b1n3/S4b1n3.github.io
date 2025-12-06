@@ -90,8 +90,10 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  ai_conferences:
+    title: 'AI Conference Papers'
+  neuro_conferences:
+    title: 'Neuroscience Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
