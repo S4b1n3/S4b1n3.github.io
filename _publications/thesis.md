@@ -7,7 +7,7 @@ excerpt: 'This thesis tests the long-standing idea that neural synchrony helps t
 date: 2025-07-15
 venue: 'University of Toulouse'
 paperurl: 'https://theses.hal.science/tel-05351777/document'
-citation: '<strong>Muzellec, S.</strong>. (2025). In Sync with the Brain : Modeling Visual Binding through Neural Synchrony.Neuroscience. Université de Toulouse.'
+citation: '<strong>Muzellec, S.</strong> (2025). In Sync with the Brain : Modeling Visual Binding through Neural Synchrony.Neuroscience. Université de Toulouse.'
 featured: true
 header:
     teaser: "thesis.png"
