@@ -5,7 +5,7 @@ category: neuro_conferences
 permalink: /publication/reverse_predictivity_neti
 excerpt: 'Preliminary results on Reverse Predictivity presented in Texas.'
 date: 2025-04-26
-venue: 'NETI Workshop.'
+venue: 'NETI Workshop'
 paperurl: 'https://liberalarts.utexas.edu/cps/neti-workshop/schedule.html'
 citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Predictions in Visual Object Recognition. NETI Workshop.'
 featured: false

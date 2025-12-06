@@ -5,7 +5,7 @@ category: neuro_conferences
 permalink: /publication/reverse_predictivity_jns
 excerpt: 'Reverse Predictivity presented in Japan.'
 date: 2025-07-25
-venue: 'The 48th Annual Meeting of the Japan Neuroscience Society.'
+venue: 'The 48th Annual Meeting of the Japan Neuroscience Society'
 paperurl: 'https://pub.confit.atlas.jp/en/event/neuroscience2025/presentation/2P-400'
 citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Predictions in Visual Object Recognition. The 48th Annual Meeting of the Japan Neuroscience Society.'
 featured: false
