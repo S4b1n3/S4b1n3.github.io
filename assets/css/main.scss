@@ -92,3 +92,7 @@
 .archive__item:has(img[src$="reverse_pred.png"]) .archive__item-teaser {
   margin-top: 1.5rem;   /* was 4rem globally; adjust 1–2rem to taste */
 }
+
+.archive__item:has(img[src$="tracking.png"]) .archive__item-teaser {
+  margin-top: 5rem;   /* was 4rem globally; adjust 1–2rem to taste */
+}
