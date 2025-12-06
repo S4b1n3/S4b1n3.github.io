@@ -94,6 +94,8 @@ publication_category:
     title: 'AI Conference Papers'
   neuro_conferences:
     title: 'Neuroscience Conference Papers'
+  thesis:
+    title: 'Thesis'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

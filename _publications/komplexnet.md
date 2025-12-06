@@ -7,7 +7,7 @@ excerpt: 'We investigate whether neural-inspired synchrony can improve object bi
 date: 2025-02-28
 venue: 'Transactions on Machine Learning Research (TMLR)'
 paperurl: 'https://arxiv.org/pdf/2502.21077?'
-citation: '<strong>Muzellec, S.</strong>, Alamia, A., Serre, T., VanRullen, R (2025). Enhancing deep neural networks through complex-valued representations and Kuramoto synchronization dynamics. Transactions on Machine Learning Research (TMLR).'
+citation: '<strong>Muzellec, S.</strong>, Alamia, A., Serre, T., VanRullen, R. (2025). Enhancing deep neural networks through complex-valued representations and Kuramoto synchronization dynamics. Transactions on Machine Learning Research (TMLR).'
 featured: true
 header:
     teaser: "komplexnet.png"
