@@ -7,7 +7,7 @@ excerpt: 'We systematically investigate how different inductive biases shape the
 date: 2024-12-16
 venue: 'Advances in Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://proceedings.neurips.cc/paper_files/paper/2024/file/ae90d88755e0eaeb9121712fbac4e8de-Paper-Conference.pdf'
-citation: 'Boutin, V., Mukherji, R., Agrawal, A., <strong>Muzellec, S.*</strong>, Fel, T., Serre, T., VanRullen, R. (2024). Latent Representation Matters: Human-like Sketches in One-shot Drawing Tasks. Advances in Neural Information Processing Systems (NeurIPS) 37, 96282-96324'
+citation: 'Boutin, V., Mukherji, R., Agrawal, A., <strong>Muzellec, S.</strong>, Fel, T., Serre, T., VanRullen, R. (2024). Latent Representation Matters: Human-like Sketches in One-shot Drawing Tasks. Advances in Neural Information Processing Systems (NeurIPS) 37, 96282-96324'
 featured: false
 ---
 
