@@ -7,7 +7,7 @@ excerpt: 'We introduce a complex-valued recurrent neural network (CV-RNN) that l
 date: 2024-10-02
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://arxiv.org/pdf/2410.02094'
-citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A.K., Mingolla, E.,  Malik, G., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. International Conference on Learning Representations (ICLR).'
+citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A. K., Mingolla, E.,  Malik, G., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. International Conference on Learning Representations (ICLR).'
 featured: true
 header:
     teaser: "tracking.png"

@@ -7,7 +7,7 @@ excerpt: 'FeatureTracker presented in Cold Spring Harbour.'
 date: 2025-09-30
 venue: 'The 3rd Cold Spring Harbor conference on From Neuroscience to Artificially Intelligent Systems (NAISys)'
 paperurl: 'https://meetings.cshl.edu/meetings.aspx?meet=NAISYS&year=24'
-citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A.K., Mingolla, E.,  Malik, G., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. The 3rd Cold Spring Harbor conference on From Neuroscience to Artificially Intelligent Systems (NAISys).'
+citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A. K., Mingolla, E.,  Malik, G., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. The 3rd Cold Spring Harbor conference on From Neuroscience to Artificially Intelligent Systems (NAISys).'
 featured: false
 ---
 

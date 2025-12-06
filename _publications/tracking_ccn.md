@@ -7,7 +7,7 @@ excerpt: 'Preliminary version of FeatureTracker presented at CCN.'
 date: 2024-08-04
 venue: 'Conference on Cognitive Computational Neuroscience (CCN)'
 paperurl: 'https://2024.ccneuro.org/pdf/473_Paper_authored_CCN202_Pathtracker.pdf'
-citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A.K., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. Conference on Cognitive Computational Neuroscience (CCN).'
+citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A. K., VanRullen, R., Serre, T.  (2024). Tracking objects that change in appearance with phase synchrony. Conference on Cognitive Computational Neuroscience (CCN).'
 featured: false
 ---
 
