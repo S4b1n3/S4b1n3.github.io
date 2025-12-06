@@ -87,11 +87,9 @@
   width: 260px !important;
   height: auto !important;
   border-radius: 0 !important;
-  margin-top: 0 !important;   // reset so it’s not cropped
 }
 
 .archive__item:has(img[src$="reverse_pred.png"]) .archive__item-teaser {
-  display: flex;
-  align-items: center;
+  margin-top: 1.5rem;   /* was 4rem globally; adjust 1–2rem to taste */
 }
 
