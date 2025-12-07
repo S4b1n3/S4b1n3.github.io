@@ -100,3 +100,14 @@
 .archive__item:has(img[src$="thesis.png"]) .archive__item-teaser {
   margin-top: 6rem;   /* was 4rem globally; adjust 1–2rem to taste */
 }
+
+.page__content .defense-video {
+  margin-top: 0.5rem;    /* space above the video */
+  margin-bottom: 0.5rem; /* space below the video */
+}
+
+/* Remove any extra iframe margins inside that block */
+.page__content .defense-video iframe {
+  display: block;
+  margin: 0;             /* kill extra top/bottom space */
+}
