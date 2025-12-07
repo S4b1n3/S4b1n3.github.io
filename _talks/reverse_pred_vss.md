@@ -8,7 +8,7 @@ date: 2025-06-18
 location: "TradeWinds Island Resorts, St. Pete Beach, Florida, USA"
 ---
 
-How should we evaluate whether an artificial neural network truly represents objects the way the primate visual system does? In this talk, I introduce Reverse Predictivity, a complementary metric that tests how well population activity in macaque IT can predict the internal (IT-like) units of models. Using large-scale time-resolved IT recordings and features from diverse ANN architectures, I show that reverse predictivity reveals alignment patterns that traditional encoding analyses (i.e., forward predictivity) miss. Combined, forward and reverse predictivity provide a more complete picture of model–brain similarity, exposing representational differences that are invisible when using only a one-directional evaluation.
+How should we evaluate whether an artificial neural network truly represents objects the way the primate visual system does? In this talk, we introduce Reverse Predictivity, a complementary metric that tests how well population activity in macaque IT can predict the internal (IT-like) units of models. Using large-scale time-resolved IT recordings and features from diverse ANN architectures, we show that reverse predictivity reveals alignment patterns that traditional encoding analyses (i.e., forward predictivity) miss. Combined, forward and reverse predictivity provide a more complete picture of model–brain similarity, exposing representational differences that are invisible when using only a one-directional evaluation.
 
 ### Recording
 
