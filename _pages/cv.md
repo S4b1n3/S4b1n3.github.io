@@ -62,6 +62,13 @@ Awards and Fellowship
 * August 2024: The Center for Brains, Minds and Machines (CBMM) Summer Course (Marine Biological Laboratory, Woods Hole, MA, USA)
 * September 2020 - August 2021: Master's Degree Excellence Scholarship (ANITI, Toulouse, France)
 
+Supervised Students
+======
+ * Undergraduate Students:
+    * Lucas Lieberman (M): Brown University, From March to May 2025
+    * Anna Gouédard (F): INP Bordeaux, France, From May to August 2024
+    * Marcus Wong (M): Shenoy Undergraduated, SURFiN, From September 2025 to August 2026
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -82,4 +89,18 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Journals:
+  Communications biology (2025)
+
+* Official Reviewer:
+  * ICLR 2025
+
+* External Reviewer:
+  * NeurIPS 2023
+  * NeurIPS 2024
+
+* Emergency Reviewer:
+  * NeurIPS 2025
+  * ICLR 2026
+
+  
