@@ -5,6 +5,11 @@ var addressPoints = [
     -122.272863
   ],
   [
+    "AI Tasting Seminar<br />Torus AI; Toulouse, France",
+    43.6044638,
+    1.4442433
+  ],
+  [
     "ICLR Presentation on FeatureTracker<br />International Conference on Learning Representations (ICLR); Singapore EXPO",
     1.3352329,
     103.9598931
