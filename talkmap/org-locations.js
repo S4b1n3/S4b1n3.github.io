@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "CCN 2022 Contributed Talk on Neural ODEs<br />Conference on Cognitive Computational Neuroscience (CCN); San Francisco, CA, USA",
+    37.7932754,
+    -122.3963589
   ],
   [
     "AI Tasting Seminar<br />Torus AI; Toulouse, France",
