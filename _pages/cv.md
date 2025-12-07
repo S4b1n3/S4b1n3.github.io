@@ -9,37 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
+[📄 Download my full CV (PDF)]({{ "images/CV_2025-12-07_Sabine_Muzellec.pdf" | relative_url }})
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Toulouse, 2025 (expected)
+* Master in Artificial Intelligence, Pattern Recognition and Robotics (with honors), 2021
+* Bachelor in  Computer Science - Project Management (with honors), 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2025: Postdoctoral Researcher
+  * York University, Toronto, ON, Canada
+  * Topics: Neural Decoding, Explainability, E/I modeling, Autism
+  * Advisor: Kohitij Kar
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2025: Research Assistant
+  * York University, Toronto, ON, Canada
+  * Topics: Neural Decoding, Explainability
+  * Advisor: Kohitij Kar
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2024 - February 2025: Visiting Student
+  * York University, Toronto, ON, Canada
+  * Topics: Shared Temporal Variance
+  * Advisor: Kohitij Kar
+
+* May 2023 - May 2025: Visiting Student
+  * Brown University, Providence, RI, USA
+  * Topics: Complex-valued Neural Networs, Neural Oscillations, Binding by Sychrony
+  * Advisors: Thomas Serre, Rufin Van Rullen
+
+* January 2022 - May 2023: Research Engineer
+  * CerCo - CNRS, Toulouse, France
+  * Topics: Complex-valued Neural Networs, Neural Oscillations, Binding by Sychrony
+  * Advisors: Thomas Serre, Rufin Van Rullen
+
+* March 2021: M2 Internship
+  * Brown university, Providence, RI, USA
+  * Topics: Neural ODEs
+  * Advisor: Thomas Serre
+
+* June 2020: M1 Internship
+  * LAAS - CNRS, Toulouse, France
+  * Topics: Constraint Programming, Binary Neural Networks
+  * Advisor: Mohamed Siala
   
-Skills
+Awards and Fellowship
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* June 2025: Connected Minds Postdoctoral Fellowship (CFREF, York University, Toronto, ON, Canada)
+* May 2025: Travel Award (Vision Science Society (VSS) Conference)
+* November 2024 - February 2025: VISTA Visiting Trainee Award (CFREF, York University, Toronto, ON, Canada)
+* August 2024: The Center for Brains, Minds and Machines (CBMM) Summer Course (Marine Biological Laboratory, Woods Hole, MA, USA)
+* September 2020 - August 2021: Master's Degree Excellence Scholarship (ANITI, Toulouse, France)
 
 Publications
 ======
