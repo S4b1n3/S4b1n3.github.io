@@ -68,6 +68,7 @@ Supervised Students
     * Lucas Lieberman (M): Brown University, From March to May 2025
     * Anna Gouédard (F): INP Bordeaux, France, From May to August 2024
     * Marcus Wong (M): Shenoy Undergraduated, SURFiN, From September 2025 to August 2026
+    * Stephanie Habach (F): Shenoy Undergraduated, SURFiN, From September 2025 to August 2026
 
 Publications
 ======
