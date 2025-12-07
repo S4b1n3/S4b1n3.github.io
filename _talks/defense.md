@@ -17,8 +17,8 @@ This talk examines neural synchrony (i.e., the coordinated timing of neuronal ac
   width="100%"
   height="480"
   frameborder="0"
+  style="border:0;"
   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
   referrerpolicy="strict-origin-when-cross-origin"
   title="Thesis Defense">
 </iframe>
-
