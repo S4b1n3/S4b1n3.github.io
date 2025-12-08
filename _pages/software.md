@@ -37,12 +37,12 @@ Most of it sits at the intersection of **computational neuroscience**, **deep le
 
 **Includes:**
 <div style="font-size:0.90rem; margin-left:1rem;">
-
-- Regression pipelines  
-- Reliability & noise-ceiling estimation  
-- ANN → Monkey, Monkey → ANN, Monkey → Monkey, and Model → Model comparisons  
-- Full reproducibility scripts for figures and benchmarks  
-
+<ul>
+  <li>Regression pipelines</li>
+  <li>Reliability & noise-ceiling estimation</li>
+  <li>ANN → Monkey, Monkey → ANN, Monkey → Monkey, and Model → Model comparisons</li>
+  <li>Full reproducibility scripts for figures and benchmarks</li>
+</ul>
 </div>
 
 This repo is designed to **replicate the publication** and provide a transparent scientific workflow.
@@ -63,12 +63,12 @@ A lightweight, general-purpose Python package that exposes the core mapping util
 
 **Features:**
 <div style="font-size:0.90rem; margin-left:1rem;">
-
-- Unified API for the four mapping modes  
-- Fit/evaluate linear models (ridge by default; PLS & others supported)  
-- Clean, modular functions for ANN feature extraction → mapping → evaluation  
-- Can be integrated into any model–brain alignment project  
-
+<ul>
+  <li>Unified API for the four mapping modes</li>
+  <li>Fit/evaluate linear models (ridge by default; PLS & others supported)</li>
+  <li>Clean, modular functions for ANN feature extraction → mapping → evaluation</li>
+  <li>Integrates easily into any model–brain alignment project</li>
+</ul>
 </div>
 
 **Example usage**
@@ -86,7 +86,7 @@ compute_monkey_to_model(
     model_features=model_features,
     rates=rates,
     out_dir="results/monkey_to_model/resnet50",
-    reps=20,   # number of cross-validated fits
+    reps=20,
 )
 ```
 
@@ -112,14 +112,14 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
 
 **Includes:**
 <div style="font-size:0.90rem; margin-left:1rem;">
-
-- Fine-tuning pipelines for object-recognition models  
-- Attribution generation using Captum (Saliency, NoiseTunnel, IG, etc.)  
-- **Explanation-Masked Inputs (EMIs)**: images masked based on attribution maps  
-- Behavioral metrics (**B.I1**) to compare models with humans, monkeys, and neurons  
-- Similarity analyses (L1, L2, LPIPS)  
-- Full reproducibility scripts for MAPS paper figures  
-
+<ul>
+  <li>Fine-tuning pipelines for object-recognition models</li>
+  <li>Attribution generation using Captum (Saliency, NoiseTunnel, IG, etc.)</li>
+  <li><b>Explanation-Masked Inputs (EMIs)</b> based on attribution maps</li>
+  <li>Behavioral metrics (B.I1) comparing models, humans, and monkeys</li>
+  <li>Similarity analyses (L1, L2, LPIPS)</li>
+  <li>Full reproducibility scripts for MAPS paper figures</li>
+</ul>
 </div>
 
 ---
@@ -132,21 +132,21 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
   KomplexNet – Complex-valued networks with Kuramoto synchrony
 </h3>
 
-**Purpose:** PyTorch(-Lightning) framework for **complex-valued neural networks** with **Kuramoto-style phase synchronization**, designed to test the benefits of binding-by-synchrony in deep networks (generalization to overlap, noise, and number of objects).
+**Purpose:** PyTorch(-Lightning) framework for **complex-valued neural networks** with **Kuramoto-style phase synchronization**, designed to test the benefits of binding-by-synchrony in deep networks.
 
 - **Code:** <https://github.com/S4b1n3/KomplexNet>  
 - **Paper:** Muzellec, Alamia, Serre & VanRullen (TMLR, 2025)
 
 **Includes:**
 <div style="font-size:0.90rem; margin-left:1rem;">
-
-- Complex-valued convolutions with phase-based recurrence  
-- Differentiable **Kuramoto synchrony module**  
-- Training pipelines for MultiMNIST  
-- Tools to analyze **phase dynamics**, synchrony strength, and recognition accuracy  
-- Comparisons against real-valued CNNs and ablated synchrony models  
-- Full experiment + figure reproduction scripts  
-
+<ul>
+  <li>Complex-valued convolutions with phase-based recurrence</li>
+  <li>Differentiable <b>Kuramoto synchrony module</b></li>
+  <li>Training pipelines for MultiMNIST</li>
+  <li>Tools to analyze phase dynamics, synchrony strength, and recognition accuracy</li>
+  <li>Comparisons with real-valued CNNs and ablated models</li>
+  <li>Full experiment + figure reproduction scripts</li>
+</ul>
 </div>
 
 ---
@@ -168,11 +168,11 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
 
 **Includes:**
 <div style="font-size:0.90rem; margin-left:1rem;">
-
-- Stimulus generation scripts (`utils_shapes.py`, `utils_colors.py`, `generate_data.py`)  
-- Training scripts for CV-RNN and related models  
-- Testing scripts across multiple FeatureTracker variations  
-
+<ul>
+  <li>Stimulus generation scripts (shapes, colors, dynamics)</li>
+  <li>Training scripts for CV-RNN and related models</li>
+  <li>Testing scripts for all FeatureTracker variations</li>
+</ul>
 </div>
 
 ---
