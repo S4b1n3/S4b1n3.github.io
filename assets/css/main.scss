@@ -101,13 +101,33 @@
   margin-top: 6rem;   /* was 4rem globally; adjust 1–2rem to taste */
 }
 
-.page__content .defense-video {
-  margin-top: 0.5rem;    /* space above the video */
-  margin-bottom: 0.5rem; /* space below the video */
+/* --- Software page: highlight section titles --- */
+
+/* Big section headers: "Computational Neuroscience Toolbox", etc. */
+body.software .page__content h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e0e0e0;
 }
 
-/* Remove any extra iframe margins inside that block */
-.page__content .defense-video iframe {
-  display: block;
-  margin: 0;             /* kill extra top/bottom space */
+/* Tool titles: "Reverse Predictivity", "MAPS", "KomplexNet", "FeatureTracker" */
+body.software .page__content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.7rem;
+  margin-bottom: 0.6rem;
+  padding: 0.35rem 0.75rem;
+  background-color: #f7f7f9;
+  border-left: 4px solid #999;
+  border-radius: 4px;
+}
+
+/* Small subtitles inside sections: "1. Reverse Predictivity (analysis repo)", etc. */
+body.software .page__content h4 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #555;
+  margin-top: 1.2rem;
 }
