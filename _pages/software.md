@@ -14,16 +14,21 @@ Most of it sits at the intersection of **computational neuroscience**, **deep le
 
 ## Computational Neuroscience Toolbox
 
-<h3 style="margin-top:1.8rem; margin-bottom:0.6rem;
-           padding:0.35rem 0.75rem;
-           background:#f7f7f9;
-           border-left:4px solid #999;
-           border-radius:4px;
-           font-size:1.05rem;">
+<h3 style="margin-top:1.8rem; margin-bottom:0.4rem;
+           font-size:1.1rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
   Reverse Predictivity
 </h3>
 
-#### 🔹 1. Reverse Predictivity (analysis repo)
+<p style="margin-top:1.0rem; margin-bottom:0.4rem;
+          font-weight:600;
+          font-size:0.95rem;
+          text-transform:uppercase;
+          letter-spacing:0.08em;">
+  🔹 1. Reverse Predictivity (analysis repo)
+</p>
 
 **Purpose:** fully reproduces the analyses from the paper (model comparisons, time-resolved predictivity, neuron-level regression, reliability estimation, etc.).
 
@@ -35,11 +40,17 @@ Most of it sits at the intersection of **computational neuroscience**, **deep le
   - Regression pipelines  
   - Reliability & noise-ceiling estimation  
   - ANN → Monkey, Monkey → ANN, Monkey → Monkey, and Model → Model comparisons  
-  - Full reproducibility scripts for figures and benchmarks
+  - Full reproducibility scripts for figures and benchmarks  
 
 This repo is designed to **replicate the publication** and provide a transparent scientific workflow.
 
-#### 🔹 2. `reverse-pred` (PyPI Python library)
+<p style="margin-top:1.2rem; margin-bottom:0.4rem;
+          font-weight:600;
+          font-size:0.95rem;
+          text-transform:uppercase;
+          letter-spacing:0.08em;">
+  🔹 2. <code>reverse-pred</code> (PyPI Python library)
+</p>
 
 A lightweight, general-purpose Python package that exposes the core mapping utilities independent of the paper’s full analysis pipeline.
 
@@ -74,12 +85,11 @@ A lightweight, general-purpose Python package that exposes the core mapping util
   )
   ```
 
-<h3 style="margin-top:1.8rem; margin-bottom:0.6rem;
-           padding:0.35rem 0.75rem;
-           background:#f7f7f9;
-           border-left:4px solid #999;
-           border-radius:4px;
-           font-size:1.05rem;">
+<h3 style="margin-top:2.0rem; margin-bottom:0.4rem;
+           font-size:1.1rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
   MAPS — Masked Attribution-based Probing of Strategies
 </h3>
 
@@ -102,12 +112,11 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
 
 ## Brain-inspired neural networks
 
-<h3 style="margin-top:1.8rem; margin-bottom:0.6rem;
-           padding:0.35rem 0.75rem;
-           background:#f7f7f9;
-           border-left:4px solid #999;
-           border-radius:4px;
-           font-size:1.05rem;">
+<h3 style="margin-top:1.8rem; margin-bottom:0.4rem;
+           font-size:1.1rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
   KomplexNet – Complex-valued networks with Kuramoto synchrony
 </h3>
 
@@ -127,12 +136,11 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
 
 ## Datasets & Benchmarks
 
-<h3 style="margin-top:1.8rem; margin-bottom:0.6rem;
-           padding:0.35rem 0.75rem;
-           background:#f7f7f9;
-           border-left:4px solid #999;
-           border-radius:4px;
-           font-size:1.05rem;">
+<h3 style="margin-top:1.8rem; margin-bottom:0.4rem;
+           font-size:1.1rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
   FeatureTracker – Tracking objects that change in appearance with phase synchrony
 </h3>
 
