@@ -2,7 +2,7 @@
 # Newest first (recommended)
 
 - date: 2025-10-14
-  title: Memorability + recognition preprint
+  title: 📄🧠 Memorability + recognition preprint
   text: "Distinct contributions of memorability and object recognition to macaque IT."
   tags: [preprint, memorability]
   links:
@@ -10,7 +10,7 @@
       url: "https://www.biorxiv.org/content/10.1101/2025.10.06.680822v1.abstract"
 
 - date: 2025-10-11
-  title: MAPS preprint
+  title: 📄🔍 MAPS preprint
   text: "ANN-based framework to identify the most important pixels (best explanation) humans use to perform a visual task."
   tags: [preprint, explainability]
   links:
@@ -18,7 +18,7 @@
       url: "https://arxiv.org/abs/2510.12141"
 
 - date: 2025-08-11
-  title: Reverse predictivity preprint
+  title: 📄🔁 Reverse predictivity preprint
   text: "Reverse Predictivity: bidirectional ANN–IT alignment and asymmetry."
   tags: [preprint, alignment]
   links:
@@ -26,15 +26,15 @@
       url: "https://www.biorxiv.org/content/10.1101/2025.08.08.669382v1.full"
 
 - date: 2025-08-01
-  title: New position
+  title: 🎓 New position
   text: "Starting as a PostDoctoral Researcher at York University with Dr. Kohitij Kar."
   tags: [news, position]
   links:
-    - label: "York University"
+    - label: "ViTA Lab (Dr. Kohitij Kar)"
       url: "https://vital-kolab.org/"
 
 - date: 2025-07-20
-  title: Participated in JNS 2025
+  title: 🎤 Participated in JNS 2025
   text: "Presented a poster at the Japan Neuroscience Society (JNS) 2025 Annual Meeting."
   tags: [news, conference]
   image: /images/jns.JPG
@@ -43,7 +43,7 @@
       url: "https://neuroscience2025.jnss.org/en/"
 
 - date: 2025-07-15
-  title: PhD Graduation
+  title: 🎓 PhD Graduation
   text: "Graduated with a PhD in Computer Science from the University of Toulouse."
   tags: [news, graduation]
   image: /images/defense.JPG
@@ -52,7 +52,7 @@
       url: "https://doctorat.univ-toulouse.fr/as/ed/cv.pl?mat=147021&site=EDT"
 
 - date: 2025-06-25
-  title: PostDoctoral Fellowship
+  title: 🏅 PostDoctoral Fellowship
   text: "Awarded a PostDoctoral Fellowship from Connected Minds (York University)."
   tags: [news, fellowship]
   links:
@@ -60,7 +60,7 @@
       url: "https://www.yorku.ca/research/connected-minds/members/trainees/"
 
 - date: 2025-05-19
-  title: VSS 2025 Talk
+  title: 🗣️ VSS 2025 Talk
   text: "Presented a talk at the Vision Sciences Society (VSS) 2025 Annual Meeting."
   tags: [news, talk]
   image: /images/vss_talk.jpg
@@ -69,7 +69,7 @@
       url: "https://www.visionsciences.org/2025-talk-sessions/?id=392"
 
 - date: 2025-04-26
-  title: Participated in NETI Workshop
+  title: 🧪 Participated in NETI Workshop
   text: "Presented a poster at the Natural Environments and Tasks of Intelligence (NETI) Workshop at UT Austin."
   tags: [news, workshop]
   image: /images/neti.jpg
@@ -78,7 +78,7 @@
       url: "https://liberalarts.utexas.edu/cps/neti-workshop/"
 
 - date: 2025-03-27
-  title: Attended COSYNE 2025
+  title: 🎤 Attended COSYNE 2025
   text: "Attended the Computational and Systems Neuroscience (COSYNE) 2025 conference in Montreal."
   tags: [news, conference]
   links:

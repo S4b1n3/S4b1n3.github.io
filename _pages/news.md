@@ -10,7 +10,7 @@ author_profile: true
 A running log of recent updates (papers, talks, code, etc.).
 
 <div class="notice--info" style="margin-top: 1rem;">
-  <strong>Tip:</strong> I keep these as short entries (1–2 lines) and link out to the paper/talk/code when relevant.
+  I keep these as short entries (1–2 lines) and link out to the paper/talk/code when relevant.
 </div>
 
 {% assign updates = site.data.updates | sort: "date" | reverse %}
