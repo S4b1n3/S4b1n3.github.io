@@ -13,4 +13,20 @@ header:
     teaser: "reverse_pred.png"
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+A major goal in systems neuroscience is to build computational models that capture the
+primate brain’s internal representations. Standard evaluations of artificial neural networks
+(ANNs) emphasize forward predictivity—how well model features predict neural responses—
+without testing whether model representations are themselves predictable from
+neural activity. Here we develop the reverse predictivity metric, which quantifies how well
+macaque inferior temporal (IT) cortex responses predict ANN unit activations. This two-way
+framework reveals a striking asymmetry: models with high forward predictivity (~50% variance
+explained) often contain units unpredictable from neural activity, reflecting biologically
+inaccessible dimensions. In contrast, monkey-to-monkey mappings are symmetric, confirming
+that the asymmetry reflects genuine representational mismatch. Reverse predictivity isolates
+“common” ANN units—shared with IT, behaviorally relevant, and generalizing across
+species—and “unique” units lacking such alignment. Influenced by feature dimensionality,
+training objectives, and adversarial robustness, reverse predictivity offers a principled
+benchmark for guiding next-generation ANNs toward both high task performance and genuine
+biological plausibility.
+
+![Reverse Predictivity](/images/reverse_pred_paper.png)
