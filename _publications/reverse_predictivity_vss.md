@@ -3,7 +3,7 @@ title: "Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Pred
 collection: publications
 category: neuro_conferences
 permalink: /publication/reverse_predictivity_vss
-excerpt: 'First introduction of reverse predictivity at a neuroscience conference, demonstrating how ANN–IT representational asymmetries reveal non-biological model units that limit neuronal and behavioral alignment.'
+excerpt: 'See the associated talk <a href="/_talks/reverse_pred_vss/" target="_blank" rel="noopener">here</a>.'
 date: 2025-05-17
 venue: 'Vision Science Society (VSS) as a <strong>Talk</strong>'
 paperurl: 'https://jov.arvojournals.org/article.aspx?articleid=2809377'

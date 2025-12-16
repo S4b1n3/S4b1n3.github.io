@@ -3,7 +3,6 @@ title: "Benefits of synchrony: Improving deep neural networks using complex valu
 collection: publications
 category: neuro_conferences
 permalink: /publication/komplexnet_ccn
-excerpt: 'Preliminary version of KomplexNet presented at CCN.'
 date: 2023-08-12
 venue: 'Conference on Cognitive Computational Neuroscience (CCN)'
 paperurl: 'https://2023.ccneuro.org/proceedings/0001044.pdf?s=W&pn=1131'

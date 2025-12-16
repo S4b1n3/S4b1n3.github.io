@@ -3,7 +3,6 @@ title: "Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Pred
 collection: publications
 category: neuro_conferences
 permalink: /publication/reverse_predictivity_neti
-excerpt: 'Preliminary results on Reverse Predictivity presented in Texas.'
 date: 2025-04-26
 venue: 'NETI Workshop'
 paperurl: 'https://liberalarts.utexas.edu/cps/neti-workshop/schedule.html'
