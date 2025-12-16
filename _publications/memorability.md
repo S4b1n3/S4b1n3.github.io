@@ -13,6 +13,5 @@ featured: false
 
 The primate inferior temporal (IT) cortex, at the apex of the ventral visual stream, encodes information that supports diverse representational goals—from recognizing objects to determining which images are likely to be remembered. Specific artificial neural networks (ANNs), that currently serve as the leading computational hypotheses of ventral stream processing, are typically trained exclusively for object recognition. We asked whether incorporating image memorability as an additional optimization objective could improve ANN–brain alignment. Models optimized for memorability explained additional, non-overlapping variance in IT responses beyond that captured by recognition-optimized networks, indicating that memorability and recognition rely on partly independent dimensions of IT representation. Notably, these models also exhibited fewer non–brain-like units, bringing their representational geometry closer to that of IT. Furthermore, networks jointly optimized for both objectives were more predictive of human memorability than memorability-only models, while maintaining their alignment with human object recognition performance patterns. Together, these findings suggest that IT encodes multiple representational goals and that models trained solely for recognition provide an incomplete account of ventral stream computation.
 
-![Joint Recognition + Memorability](/images/memorability.gif)
+![Joint Recognition + Memorability](/images/memorability.png)
 
-[Full paper link](https://www.biorxiv.org/content/10.1101/2025.10.06.680822.full.pdf)

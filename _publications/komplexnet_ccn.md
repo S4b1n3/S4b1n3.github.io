@@ -15,6 +15,5 @@ Deep neural networks continue to improve at visual tasks but still fall short of
 
 ![KomplexNet](/images/komplexnet_ccn.png)
 
-[Full paper link](https://2023.ccneuro.org/proceedings/0001044.pdf?s=W&pn=1131)
 
 

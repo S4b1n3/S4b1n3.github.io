@@ -15,4 +15,3 @@ Healthy humans depend on their ability to track objects while they move through 
 
 ![The FeatureTracker challenge](/images/featuretracker_ccn.png)
 
-[Full paper link](https://2024.ccneuro.org/pdf/473_Paper_authored_CCN202_Pathtracker.pdf)

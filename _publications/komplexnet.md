@@ -17,4 +17,3 @@ Neural synchrony is hypothesized to play a crucial role in how the brain organiz
 
 ![KomplexNet](/images/komplexnet_tmlr.png)
 
-[Full paper link](https://openreview.net/pdf?id=zx6QGmBL43)

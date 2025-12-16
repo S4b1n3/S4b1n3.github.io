@@ -15,6 +15,5 @@ Humans can effortlessly draw new categories from a single exemplar, a feat that 
 
 ![Latent diffusion models](/images/latent_dif.png)
 
-[Full paper link](https://neurips.cc/virtual/2024/poster/93325)
 
 

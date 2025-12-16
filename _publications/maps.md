@@ -17,4 +17,3 @@ Human core object recognition depends on the selective use of visual information
 
 ![MAPS](/images/maps_paper.png)
 
-[Full paper link](https://arxiv.org/pdf/2510.12141)

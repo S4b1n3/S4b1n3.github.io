@@ -15,4 +15,3 @@ In recent years, Transformer architectures have revolutionized most fields of ar
 
 ![GASPNet](/images/gaspnet.png)
 
-[Full paper link](https://arxiv.org/pdf/2507.16674)

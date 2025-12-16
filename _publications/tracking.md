@@ -17,4 +17,3 @@ Objects we encounter often change appearance as we interact with them. Changes i
 
 ![Phase synchrony enables appearance-invariant tracking](/images/featuretracker.png)
 
-[Full paper link](https://arxiv.org/pdf/2410.02094)

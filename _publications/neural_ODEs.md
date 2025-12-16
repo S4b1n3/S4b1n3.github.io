@@ -15,4 +15,3 @@ Computational neuroscience models are usually defined by differential equations 
 
 ![Neural ODEs](/images/neural_ode.png)
 
-[Full paper link](https://2022.ccneuro.org/proceedings/0000090.pdf)
