@@ -11,4 +11,8 @@ citation: '<strong>Muzellec, S.*</strong>, Linsley, D.*, Ashok, A. K., VanRullen
 featured: false
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Healthy humans depend on their ability to track objects while they move through the world even as they change in appearance. Here, we introduce the FeatureTracker challenge to systematically evaluate and compare the abilities of humans and state-of-the-art deep neural networks (DNNs) to track objects that change in appearance over time. While humans can effortlessly solve this task, DNNs cannot. Drawing inspiration from cognitive science and neuroscience, we describe a novel recurrent neural circuit that can induce this tracking capability in DNNs by leveraging the oscillatory activity of its neurons to follow objects even as their appearances change. The resulting complex-valued recurrent neural network (CV-RNN) outperformed all other DNNs and approached human accuracy on the FeatureTracker challenge. The success of this novel neural circuit provides computational evidence for a long-hypothesized role of phase synchronization for visual attention and reasoning.
+
+![The FeatureTracker challenge](/images/featuretracker_ccn.png)
+
+[Full paper link](https://2024.ccneuro.org/pdf/473_Paper_authored_CCN202_Pathtracker.pdf)
