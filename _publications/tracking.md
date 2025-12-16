@@ -3,7 +3,7 @@ title: "Tracking objects that change in appearance with phase synchrony"
 collection: publications
 category: ai_conferences
 permalink: /publication/tracking
-excerpt: 'We introduce a complex-valued recurrent neural network (CV-RNN) that leverages neural synchrony to bind the different features of target objects while they change locations, offering a biologically inspired mechanism for tracking appearance-morphing objects. Using FeatureTracker, a large-scale challenge involving controlled changes in object shape, color, and location, we show that while standard deep networks fail, the CV-RNN closely matches human performance, providing a computational proof-of-concept for synchrony-based object tracking.'
+excerpt: 'We introduce a complex-valued recurrent neural network (CV-RNN) that leverages neural synchrony to bind the different features of target objects while they change locations, offering a biologically inspired mechanism for tracking appearance-morphing objects. Using FeatureTracker, a large-scale challenge involving controlled changes in object shape, color, and location, we show that while standard deep networks fail, the CV-RNN closely matches human performance, providing a computational proof-of-concept for synchrony-based object tracking. See the associated talk <a href="/talks/tracking_iclr" target="_blank" rel="noopener">here</a>.'
 date: 2024-10-02
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://arxiv.org/pdf/2410.02094'

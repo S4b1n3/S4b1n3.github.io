@@ -3,7 +3,7 @@ title: "In Sync with the Brain: Modeling Visual Binding through Neural Synchrony
 collection: publications
 category: thesis
 permalink: /publication/thesis
-excerpt: 'This thesis tests the long-standing idea that neural synchrony helps the brain bind visual features into objects. By developing neural network models that incorporate synchrony in different ways, it shows that temporal coordination improves object representations, robustness, and human-like behavior. Analyses of primate IT recordings further suggest that synchrony carries meaningful information beyond firing rates. These findings support synchrony as a useful mechanism for visual perception and for designing more brain-like AI models.'
+excerpt: 'This thesis tests the long-standing idea that neural synchrony helps the brain bind visual features into objects. By developing neural network models that incorporate synchrony in different ways, it shows that temporal coordination improves object representations, robustness, and human-like behavior. Analyses of primate IT recordings further suggest that synchrony carries meaningful information beyond firing rates. These findings support synchrony as a useful mechanism for visual perception and for designing more brain-like AI models. See the associated talk <a href="/talks/defense" target="_blank" rel="noopener">here</a>.'
 date: 2025-07-15
 venue: 'University of Toulouse'
 paperurl: 'https://theses.hal.science/tel-05351777/document'

@@ -3,6 +3,7 @@ title: "Tracking objects that change in appearance with phase synchrony"
 collection: publications
 category: neuro_conferences
 permalink: /publication/tracking_ccn
+excerpt: 'See the associated talk <a href="/talks/tracking_iclr" target="_blank" rel="noopener">here</a>.'
 date: 2024-08-04
 venue: 'Conference on Cognitive Computational Neuroscience (CCN)'
 paperurl: 'https://2024.ccneuro.org/pdf/473_Paper_authored_CCN202_Pathtracker.pdf'

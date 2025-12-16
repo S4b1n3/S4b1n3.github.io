@@ -3,7 +3,7 @@ title: "Accurate implementation of computational neuroscience models through neu
 collection: publications
 category: neuro_conferences
 permalink: /publication/neural_ODEs
-excerpt: "Master's internship on the use of neural ODEs to accurately implement computational neuroscience models, leading to better performance and computational effiency."
+excerpt: "Master's internship on the use of neural ODEs to accurately implement computational neuroscience models, leading to better performance and computational effiency. See the associated talk <a href='/talks/neural_odes_ccn' target='_blank' rel='noopener'>here</a>."
 date: 2022-08-15
 venue: 'Conference on Cognitive Computational Neuroscience (CCN) as a <strong>Talk</strong>'
 paperurl: 'https://2022.ccneuro.org/proceedings/0000090.pdf'
