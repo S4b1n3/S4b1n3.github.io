@@ -8,6 +8,8 @@
   links:
     - label: "bioRxiv"
       url: "https://www.biorxiv.org/content/10.1101/2025.10.06.680822v1.abstract"
+    - label: 'twitter thread'
+      url: "https://x.com/KohitijKar/status/1976316446503317919"
 
 - date: 2025-10-11
   title: 📄🔍 MAPS preprint
@@ -16,6 +18,8 @@
   links:
     - label: "arxiv"
       url: "https://arxiv.org/abs/2510.12141"
+    - label: 'twitter thread'
+      url: "https://x.com/SabineMuzellec/status/1978274541487952065"
 
 - date: 2025-08-11
   title: 📄🔁 Reverse predictivity preprint
@@ -24,6 +28,8 @@
   links:
     - label: "bioRxiv"
       url: "https://www.biorxiv.org/content/10.1101/2025.08.08.669382v1.full"
+    - label: 'twitter thread'
+      url: "https://x.com/SabineMuzellec/status/1955089232482938921"
 
 - date: 2025-08-01
   title: 🎓 New position
@@ -32,6 +38,14 @@
   links:
     - label: "ViTA Lab (Dr. Kohitij Kar)"
       url: "https://vital-kolab.org/"
+
+- date: 2025-07-22
+  title: 📄🤖 GASPNet preprint
+  text: "GASPNet (Global Agreement to Synchronize Phases): global Kuramoto synchronization for robust object recognition."
+  tags: [preprint, model]
+  links:
+    - label: "arxiv"
+      url: "https://arxiv.org/abs/2507.16674"
 
 - date: 2025-07-20
   title: 🎤 Participated in JNS 2025
@@ -59,6 +73,14 @@
     - label: "Connected Minds"
       url: "https://www.yorku.ca/research/connected-minds/members/trainees/"
 
+- date: 2025-06-12
+  title: ✅📄🤖 KomplexNet accepted at TMLR
+  text: "Enhancing deep neural networks through complex-valued representations and Kuramoto synchronization dynamics."
+  tags: [acceptance, paper, model]
+  links:
+    - label: "TMLR"
+      url: "https://openreview.net/forum?id=zx6QGmBL43"
+
 - date: 2025-05-19
   title: 🗣️ VSS 2025 Talk
   text: "Presented a talk at the Vision Sciences Society (VSS) 2025 Annual Meeting."
@@ -84,3 +106,32 @@
   links:
     - label: "COSYNE 2025"
       url: "https://cosyne.org/"
+
+- date: 2025-01-22
+  title: ✅📄🤖 FeatureTracker accepted at ICLR 2025
+  text: "Tracking objects that change in appearance with phase synchrony."
+  tags: [acceptance, paper, model]
+  links:
+    - label: "ICLR 2025"
+      url: "https://openreview.net/forum?id=m2gVfgWYDO&noteId=m2gVfgWYDO"
+    - label: "Description"
+      url: "https://s4b1n3.github.io/publication/tracking"
+
+- date: 2024-09-28
+  title: 🧪 Participated in NAISYS Meeting
+  text: "Presented a poster at the 'From Neuroscience to Artificially Intelligent Systems' (NAISys) Meeting."
+  tags: [news, workshop]
+  image: /images/naisys.png
+  links:
+    - label: "NAISYS"
+      url: "https://meetings.cshl.edu/meetings.aspx?meet=NAISYS"
+
+- date: 2024-08-04
+  title: 🏅 Participated in BMM Summer School
+  text: "Attended the Brain and Mind Machine (BMM) Summer School in Woodshole (MA)."
+  tags: [news, summer school]
+  image: /images/BMMSummerCourse2024.png
+  links:
+    - label: "BMM Summer School"
+      url: "https://cbmm.mit.edu/summer-school/2024"
+
