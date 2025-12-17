@@ -7,6 +7,7 @@ excerpt: 'We identify a major limitation of gradient-based white-box attribution
 date: 2023-07-18
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: 'https://arxiv.org/pdf/2307.09591'
+codeurl: 'https://github.com/deel-ai/xplique/blob/master/xplique/commons/forgrad.py'
 citation: '<strong>Muzellec, S.</strong>, Fel, T., Boutin, V., Andeol, L., VanRullen, R., Serre, T. (2023). Saliency strikes back: How filtering out high frequencies improves white-box explanations. International Conference on Machine Learning (ICML).'
 featured: false
 ---

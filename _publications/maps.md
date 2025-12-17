@@ -7,6 +7,8 @@ excerpt: "MAPS is a validated tool that identifies which ANN explanations best m
 date: 2025-10-14
 venue: "Under revision at Communications Psychology"
 paperurl: "https://arxiv.org/pdf/2510.12141"
+codeurl: "https://github.com/vital-kolab/maps"
+dataurl: "https://osf.io/t6kw8/overview?view_only=c9d2b96a8c7f43bda3acefc07fc25bc8"
 citation: "<strong>Muzellec, S.</strong>, Alghetaa, Y. K., Kornblith, S., & Kar, K. (2025). MAPS: Masked Attribution-based Probing of Strategies — A computational framework to align human and model explanations. arXiv preprint arXiv:2510.12141"
 featured: true
 header:

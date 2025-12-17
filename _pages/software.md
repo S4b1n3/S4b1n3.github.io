@@ -177,6 +177,34 @@ It combines attribution methods, explanation-driven perturbations, and behaviora
 
 ---
 
+## Explainability tools
+
+<h3 style="margin-top:1.8rem; margin-bottom:0.4rem;
+           font-size:1.15rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
+  Saliency strikes back: How filtering out high frequencies improves white-box explanations
+</h3>
+
+**Purpose:**  
+Improve the faithfulness and robustness of gradient-based saliency maps by filtering out high-frequency artifacts, yielding clearer and more reliable explanations without modifying the underlying model or attribution method.
+
+- **Code:** <https://github.com/deel-ai/xplique/blob/master/xplique/commons/forgrad.py> 
+- **Tutorial (Colab):** <https://colab.research.google.com/drive/1ibLzn7r9QQIEmZxApObowzx8n9ukinYB>   
+- **Paper:** Muzellec, Fel, Boutin, Andeol, VanRullen & Serre, *ICML 2023*
+
+**Includes:**
+<div style="font-size:0.90rem; margin-left:1rem;">
+<ul>
+  <li>FORGrad (Fourier-Regularized Gradients): frequency-domain filtering applied to gradient-based explanations</li>
+  <li>Drop-in compatibility with standard white-box methods (Gradients, Integrated Gradients, SmoothGrad, etc.)</li>
+  <li>Lightweight, model-agnostic post-processing with no additional forward or backward passes</li>
+</ul>
+</div>
+
+---
+
 ## How to cite
 
 If you use any of this code or datasets in your work, please cite the corresponding paper(s).  
