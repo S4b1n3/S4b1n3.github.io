@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <!-- MAIN ROW: text + (optional) image -->
@@ -47,7 +47,7 @@
             <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
               {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
             </strong>
-            <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+            <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">
               {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
             </time>
           </p>
@@ -65,12 +65,12 @@
 
       <!-- IMAGE COLUMN (only for featured pubs with teaser) -->
       {% if teaser and post.featured %}
-        <div class="archive__item-teaser">
+        <div class='archive__item-teaser'>
           <img src=
-            {% if teaser contains "://" %}
-              "{{ teaser }}"
+            {% if teaser contains '://' %}
+              '{{ teaser }}'
             {% else %}
-              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              '{{ teaser | prepend: "/images/" | prepend: base_path }}'
             {% endif %}
             alt="">
         </div>
@@ -79,30 +79,12 @@
 
     <!-- FULL-WIDTH META (citation + links) -->
     <div class="archive__item-meta">
-      <!-- {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.citation and post.paperurl and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-      {% elsif post.citation and post.paperurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.citation and post.paperurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-      {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
-      {% elsif post.citation and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-      {% elsif post.citation and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p> -->
       {% if post.citation %}
         <p>Recommended citation: {{ post.citation }}</p>
-      <!-- {% elsif post.paperurl and post.bibtexurl %}
-        <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p> -->
       {% elsif post.slidesurl and post.paperurl and post.bibtexurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.slidesurl and post.paperurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.paperurl }}">Download Paper</a></p>
-      <!-- {% elsif post.paperurl and post.bibtexurl %}
-        <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p> -->
       {% elsif post.slidesurl and post.bibtexurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.slidesurl %}
