@@ -3,6 +3,7 @@ title: "Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Pred
 collection: publications
 category: neuro_conferences
 permalink: /publication/reverse_predictivity_jns
+excerpt: 'See the associated talk <a href="/talks/reverse_pred_vss" target="_blank" rel="noopener">here</a>.'
 date: 2025-07-25
 venue: 'The 48th Annual Meeting of the Japan Neuroscience Society'
 paperurl: 'https://pub.confit.atlas.jp/en/event/neuroscience2025/presentation/2P-400'
