@@ -80,6 +80,18 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        <p>
+        {% if page.paperurl %}
+          <a class="btn btn--danger" href="{{ page.paperurl }}" target="_blank" rel="noopener">PDF</a>
+        {% endif %}
+        {% if page.codeurl %}
+          <a class="btn btn--success" href="{{ page.codeurl }}" target="_blank" rel="noopener">GitHub</a>
+        {% endif %}
+        {% if page.dataurl %}
+          <a class="btn btn--info" href="{{ page.dataurl }}" target="_blank" rel="noopener">Data</a>
+        {% endif %}
+      </p>
       </section>
 
       <footer class="page__meta">
