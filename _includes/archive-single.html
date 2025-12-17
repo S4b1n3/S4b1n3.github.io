@@ -97,31 +97,38 @@
         <p>Recommended citation: {{ post.citation }}</p>
       <!-- {% elsif post.paperurl and post.bibtexurl %}
         <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p> -->
-      {% elsif post.paperurl %}
-        <!-- <p><a href=" {{ post.paperurl }} ">Download Paper</a></p> -->
-        <a class="btn btn--danger" href="{{ page.paperurl }}" target="_blank" rel="noopener">
-          <i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
-        </a>
-      {% elsif post.codeurl %}
-        <a class="btn btn--success" href="{{ page.codeurl }}" target="_blank" rel="noopener">
-          <i class="fab fa-github" aria-hidden="true"></i> GitHub
-        </a>
-      {% elsif post.dataurl %}
-        <a class="btn btn--info" href="{{ page.dataurl }}" target="_blank" rel="noopener">
-          <i class="fas fa-database" aria-hidden="true"></i> Data
-        </a>
       {% elsif post.slidesurl and post.paperurl and post.bibtexurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.slidesurl and post.paperurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.paperurl }}">Download Paper</a></p>
-      {% elsif post.paperurl and post.bibtexurl %}
-        <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <!-- {% elsif post.paperurl and post.bibtexurl %}
+        <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p> -->
       {% elsif post.slidesurl and post.bibtexurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.slidesurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
       {% elsif post.bibtexurl %}
         <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      {% endif %}
+
+      {% if post.collection == 'publications' %}
+        <p style="margin-top:0.5rem;">
+          {% if post.paperurl %}
+            <a class="btn btn--danger" href="{{ post.paperurl }}" target="_blank" rel="noopener">
+              <i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
+            </a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a class="btn btn--success" href="{{ post.codeurl }}" target="_blank" rel="noopener">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          {% endif %}
+          {% if post.dataurl %}
+            <a class="btn btn--info" href="{{ post.dataurl }}" target="_blank" rel="noopener">
+              <i class="fas fa-database" aria-hidden="true"></i> Data
+            </a>
+          {% endif %}
+        </p>
       {% endif %}
     </div>
 
