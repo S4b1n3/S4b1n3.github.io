@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-🔬 I am a postdoctoral researcher in computational neuroscience in [Kohitij Kar’s lab](https://vital-kolab.org) at York University, where I study the computational principles underlying high-level visual processing. My research bridges artificial neural networks, primate neurophysiology, and human behavior to investigate how visual representations emerge and how they differ across neurotypical and autistic perception.
+🔬 I am a postdoctoral researcher in computational neuroscience in [Kohitij Kar’s lab](https://vital-kolab.org) at York University (Toronto, Canada), where I study the computational principles underlying high-level visual processing. My research bridges artificial neural networks, primate neurophysiology, and human behavior to investigate how visual representations emerge and how they differ across neurotypical and autistic perception.
 
 🧠 Methodologically, my work integrates ANN perturbations, biologically inspired circuit modeling, representational alignment techniques, primate electrophysiology, and human behavioral experiments.
 
