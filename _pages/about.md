@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Research Overview"
+title: "Sabine Muzellec | Vision, Brain & AI ⭐"
 author_profile: true
 redirect_from: 
   - /about/

@@ -14,7 +14,7 @@ This talk examines neural synchrony (i.e., the coordinated timing of neuronal ac
 
 <div class="defense-video">
   <iframe
-    src="https://player.vimeo.com/video/1144190946?badge=0&autopause=0&player_id=0&app_id=58479"
+    src="https://player.vimeo.com/video/1149258431?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     frameborder="0"
     style="
       border:0;
