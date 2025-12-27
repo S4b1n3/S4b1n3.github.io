@@ -6,6 +6,28 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sabine Muzellec | Vision, Brain & AI</title>
+    <meta name="description" content="Sabine Muzellec – Postdoctoral researcher working on visual computational neuroscience.">
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sabine Muzellec",
+      "url": "https://s4b1n3.github.io",
+      "affiliation": {"@type": "Organization", "name": "York University"},
+      "jobTitle": "Postdoctoral Researcher",
+      "sameAs": [
+        "https://github.com/s4b1n3"
+      ]
+    }
+    </script>
+
   <head>
     {% include head.html %}
     {% include head/custom.html %}
