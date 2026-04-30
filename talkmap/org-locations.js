@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Reverse Predictivty at CIAN Postdoctoral Seminar<br />CIAN Monthly Seminar; York University, Toronto, ON, Canada",
+    "Reverse Predictivity at CIAN Postdoctoral Seminar<br />CIAN Monthly Seminar; York University, Toronto, ON, Canada",
     43.7743325,
     -79.5002705
   ],
