@@ -8,7 +8,7 @@ date: 2026-03-11
 venue: "Under Revision at Current Biology"
 paperurl: "https://www.biorxiv.org/content/10.1101/2023.08.01.551579v2.full"
 codeurl: "https://github.com/vital-kolab/exc-inh-cor"
-citation: "<strong>Muzellec, S.*</strong>, Sanghavi, S., & Kar, K. (2023). Cell-type specific population codes link inferior temporal cortex to object recognition behavior. bioRxiv, 2023-08."
+citation: "<strong>Muzellec, S.*</strong>, Sanghavi, S.*, & Kar, K. (2023). Cell-type specific population codes link inferior temporal cortex to object recognition behavior. bioRxiv, 2023-08."
 featured: false
 ---
 

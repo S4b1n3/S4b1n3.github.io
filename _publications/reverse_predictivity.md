@@ -1,10 +1,10 @@
 ---
-title: "Reverse Predictivity: Going Beyond One-Way Mapping to Compare Artificial Neural Network Models and Brains"
+title: "Reverse predictivity for bidirectional comparison of neural networks and biological brains"
 collection: publications
 category: manuscripts
 permalink: /publication/reverse_predictivity
 excerpt: 'We introduce reverse predictivity, a new metric that complements traditional forward predictivity by testing bidirectional alignment (how well ANN representations can be predicted by macaque IT activity). While monkey-to-monkey and same-architecture ANN initializations show symmetry, ANNs exhibit a striking asymmetry with IT, and we identify factors (such as adversarial training) that reduce these non-IT-aligned representational dimensions and improve ANN–brain alignment. See the associated talk <a href="/talks/reverse_pred_vss" target="_blank" rel="noopener">here</a>.'
-date: 2025-08-11
+date: 2026-03-25
 venue: 'Nature Machine Intelligence'
 paperurl: 'https://www.nature.com/articles/s42256-026-01204-0'
 codeurl: "https://github.com/vital-kolab/reverse_pred"

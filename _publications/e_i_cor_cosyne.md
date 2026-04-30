@@ -6,8 +6,8 @@ permalink: /publication/e_i_cor_cosyne
 excerpt: 'See the associated preprint <a href="/publication/e_i_cor" target="_blank" rel="noopener">here</a>.'
 date: 2026-03-13
 venue: 'COSYNE 2026'
-paperurl: "{{ '/files/Cosyne.2026.Sabine.pdf' | relative_url }}"
-citation: "<strong>Muzellec, S.*</strong>, Sanghavi, S., & Kar, K. (2026). Temporal and Geometric Signatures of Excitatory and Inhibitory Population Codes in Primate Object Representation. Cosyne"
+paperurl: '/files/Cosyne.2026.Sabine.pdf'
+citation: "<strong>Muzellec, S.*</strong>, Sanghavi, S.*, & Kar, K. (2026). Temporal and Geometric Signatures of Excitatory and Inhibitory Population Codes in Primate Object Representation. Cosyne"
 featured: false
 ---
 
