@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "ICLR Presentation on FeatureTracker<br />International Conference on Learning Representations (ICLR); Singapore EXPO",
+    1.3352329,
+    103.9598931
+  ],
+  [
     "CCN 2022 Contributed Talk on Neural ODEs<br />Conference on Cognitive Computational Neuroscience (CCN); San Francisco, CA, USA",
     37.7879363,
     -122.4075201
@@ -10,8 +15,8 @@ var addressPoints = [
     1.4442433
   ],
   [
-    "ICLR Presentation on FeatureTracker<br />International Conference on Learning Representations (ICLR); Singapore EXPO",
-    1.3352329,
-    103.9598931
+    "Talk on Distinct computational roles of excitatory and inhibitory neurons at the Simons Foundation<br />Simons Foundation (SURFiN Symposium); New York City, NY, USA",
+    40.7127281,
+    -74.0060152
   ]
 ];
