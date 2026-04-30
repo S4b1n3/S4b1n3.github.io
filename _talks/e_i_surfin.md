@@ -16,7 +16,7 @@ These findings provide a circuit-level framework for understanding how E/I balan
 
 <div class="talk-video">
   <iframe
-    src="https://www.youtube.com/watch?v=j8pcGd5uVAs"
+    src="https://www.youtube.com/embed/j8pcGd5uVAs"
     title="YouTube video player"
     frameborder="0"
     style="
