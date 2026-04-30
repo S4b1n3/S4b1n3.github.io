@@ -7,7 +7,7 @@ excerpt: 'See the associated talk <a href="/talks/reverse_pred_vss" target="_bla
 date: 2025-05-17
 venue: 'Vision Science Society (VSS) as a <strong>Talk</strong>'
 paperurl: 'https://jov.arvojournals.org/article.aspx?articleid=2809377'
-citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Predictions in Visual Object Recognition. Journal of Vision (VSS) 25 (9), 2808-2808'
+citation: '<strong>Muzellec, S.</strong> & Kar, K. (2025). Beyond One-Way Mapping: Linking Model-Brain Asymmetry to Behavioral Predictions in Visual Object Recognition. Journal of Vision (VSS) 25 (9), 2808-2808.'
 featured: false
 ---
 

@@ -1,15 +1,41 @@
 # _data/updates.yml
 # Newest first (recommended)
 
-- date: 2025-10-14
-  title: 📄🧠 Memorability + recognition preprint
-  text: "Distinct contributions of memorability and object recognition to macaque IT."
-  tags: [preprint, memorability]
+- date: 2026-03-25
+  title: ✅📄🤖 Reverse Predictivity accepted at Nature Machine Intelligence
+  text: "Reverse predictivity for bidirectional comparison of neural networks and biological brains."
+  tags: [acceptance, paper, model]
+  links:
+    - label: "Nature Machine Intelligence"
+      url: "https://www.nature.com/articles/s42256-026-01204-0"
+    - label: 'twitter thread'
+      url: "https://x.com/sabinemuzellec/status/2037177973778891260?s=46"
+
+- date: 2026-04-10
+  title: 🎤 Participated in the Simons Foundation SURFiN Symposium
+  text: "Marcus and Stephanie presented their poster and I gave a talk on the role of E/I in object recognition."
+  tags: [news, conference]
+  image: /images/surfin2026.jpeg
+  links:
+    - label: "SURFiN Symposium"
+      url: "https://events.simonsfoundation.org/event/7bfd0533-97f9-4559-ba19-fb0972cb6b15/summary"
+
+- date: 2026-03-13
+  title: 🎤 Participated in Cosyne 2026
+  text: "Presented a poster at Cosyne 2026 (Portugal)."
+  tags: [news, conference]
+  image: /images/cosyne2026.jpg
+  links:
+    - label: "Cosyne"
+      url: "https://www.cosyne.org/schedule-2026"
+
+- date: 2026-03-11
+  title: 📄🧠 Excitatory Inhibitory neurons preprint
+  text: "Cell-type specific population codes link inferior temporal cortex to object recognition behavior."
+  tags: [preprint, Exc/Inh neurons]
   links:
     - label: "bioRxiv"
-      url: "https://www.biorxiv.org/content/10.1101/2025.10.06.680822v1.abstract"
-    - label: 'twitter thread'
-      url: "https://x.com/KohitijKar/status/1976316446503317919"
+      url: "https://www.biorxiv.org/content/10.1101/2023.08.01.551579v2.full"
 
 - date: 2025-10-11
   title: 📄🔍 MAPS preprint
