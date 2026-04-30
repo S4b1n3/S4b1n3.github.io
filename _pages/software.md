@@ -34,6 +34,7 @@ Most of it sits at the intersection of **computational neuroscience**, **deep le
 - **Data (OSF):** <https://osf.io/y3qmk/>  
 - **Archive / DOI:** 10.5281/zenodo.17704686  
 - **Paper:** Muzellec & Kar (2025)
+- **Brain-Score Integration:** <https://www.brain-score.org/benchmark/vision/330>
 
 **Includes:**
 <div style="font-size:0.90rem; margin-left:1rem;">
@@ -90,6 +91,30 @@ compute_monkey_to_model(
 )
 ```
 
+<h3 style="margin-top:1.8rem; margin-bottom:0.4rem;
+           font-size:1.15rem;
+           font-weight:700;
+           border-bottom:1px solid currentColor;
+           padding-bottom:0.25rem;">
+  E/I populations contributions to Object Recognition
+</h3>
+
+**Purpose:** Analysis pipeline for quantifying the distinct contributions of excitatory and inhibitory neurons to neural representations and behavior.
+
+- **Code:** <https://github.com/vital-kolab/exc-inh-cor>  *(private, public soon)*
+- **Data (OSF):** <https://osf.io/kyd6f/overview>  
+
+**Includes:**
+<div style="font-size:0.90rem; margin-left:1rem;">
+<ul>
+  <li>Image-level decoding and behavioral alignment</li>
+  <li>Reliability and noise-ceiling estimation</li>
+  <li>Partial correlation analyses (Exc vs Inh unique contributions)</li>
+  <li>Time-resolved analyses across neural windows</li>
+  <li>Figure reproduction scripts</li>
+</ul>
+</div>
+
 ---
 
 ## Brain-inspired neural networks
@@ -106,7 +131,7 @@ compute_monkey_to_model(
 
 It combines attribution methods, explanation-driven perturbations, and behavioral evaluation to compare **models ↔ humans ↔ monkeys**.
 
-- **Code:** <https://github.com/vital-kolab/maps> *(private, public soon)*  
+- **Code:** <https://github.com/vital-kolab/maps>
 - **Data (OSF):** <https://osf.io/t6kw8/>  
 - **Paper:** Muzellec, Alghetaa, Kornblith & Kar (2025)
 
